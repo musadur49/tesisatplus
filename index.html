@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TesisatPlus | Çorlu Kırmadan Su Kaçağı Tespiti & Tıkanıklık Açma</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="TesisatPlus ile kırmadan su kaçağı tespiti, robotla tıkanıklık açma ve tesisat tadilat işleri Çorlu, Çerkezköy, Süleymanpaşa ve Lüleburgaz'da profesyonel cihazlarla noktasal olarak yapılır.">
+  <meta name="keywords"
+    content="su kaçağı tespiti, kırmadan su kaçağı çorlu, tıkanıklık açma, robotla gider açma çorlu, termal kameralı su kaçağı, akustik dinleme tesisat, tesisatçı çorlu, tesisat plus">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230284c7'><path d='M12 2C12 2 6 9 6 14C6 17.3137 8.68629 20 12 20C15.3137 20 18 17.3137 18 14C18 9 12 2 12 2Z'/></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- LocalBusiness JSON-LD Schema for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PlumbingService",
+    "name": "TesisatPlus",
+    "image": "yazısız tesisatcı resmi.jpeg",
+    "@id": "https://tesisatplus.com/#plumbing-service",
+    "url": "https://tesisatplus.com",
+    "telephone": "+905511870449",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kazimiye Mah. Acı Badem Sok. No:14",
+      "addressLocality": "Çorlu",
+      "addressRegion": "Tekirdağ",
+      "postalCode": "59850",
+      "addressCountry": "TR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.151125,
+      "longitude": 27.702844
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "areaServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Çorlu"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Çerkezköy"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Süleymanpaşa"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Lüleburgaz"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Yeniçiftlik"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo" id="logo-link">
+        <div class="logo-icon">
+          <!-- Water Drop SVG -->
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-11-7-11S5 10.7 5 15a7 7 0 0 0 7 7z" />
+          </svg>
+        </div>
+        Tesisat<span>Plus</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-link">Ana Sayfa</a></li>
+          <li class="nav-item-dropdown">
+            <div class="nav-link dropdown-trigger" id="services-dropdown-btn">
+              Hizmetlerimiz
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </div>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#tikaniklik-acma" class="dropdown-link">
+                  <div class="dropdown-icon">🚪</div>
+                  Tıkanıklık & Gider Açma
+                </a>
+              </li>
+              <li>
+                <a href="#akustik-kacak" class="dropdown-link">
+                  <div class="dropdown-icon">🎧</div>
+                  Akustik Kaçak Tespiti
+                </a>
+              </li>
+              <li>
+                <a href="#termal-kacak" class="dropdown-link">
+                  <div class="dropdown-icon">🔥</div>
+                  Termal Kamera ile Tespit
+                </a>
+              </li>
+              <li>
+                <a href="#kamerali-tespit" class="dropdown-link">
+                  <div class="dropdown-icon">📷</div>
+                  Kameralı Görüntüleme
+                </a>
+              </li>
+              <li>
+                <a href="#onarim-tadilat" class="dropdown-link">
+                  <div class="dropdown-icon">🛠️</div>
+                  Onarım & Tadilat
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#neden-biz" class="nav-link">Neden Biz?</a></li>
+          <li><a href="#galeri" class="nav-link">Çalışmalarımız</a></li>
+          <li><a href="#bolgeler" class="nav-link">Hizmet Bölgeleri</a></li>
+          <li><a href="#sss" class="nav-link">S.S.S</a></li>
+          <li><a href="#iletisim" class="nav-link">Bize Ulaşın</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="tel:05511870449" class="btn btn-primary" id="nav-call-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          0551 187 0449
+        </a>
+        <button class="mobile-toggle" id="menu-toggle-btn" aria-label="Menüyü Aç">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M3 12h18M3 6h18M3 18h18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-backdrop" id="mobile-menu-backdrop"></div>
+  <div class="mobile-nav" id="mobile-menu-drawer">
+    <ul class="mobile-menu-items">
+      <li><a href="#" class="mobile-link mobile-nav-close">Ana Sayfa</a></li>
+      <li>
+        <div class="mobile-link mobile-dropdown-trigger" id="mobile-services-btn">
+          Hizmetlerimiz
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </div>
+        <ul class="mobile-dropdown-content" id="mobile-services-content">
+          <li><a href="#tikaniklik-acma" class="mobile-dropdown-link mobile-nav-close">🚪 Tıkanıklık & Gider Açma</a>
+          </li>
+          <li><a href="#akustik-kacak" class="mobile-dropdown-link mobile-nav-close">🎧 Akustik Kaçak Tespiti</a></li>
+          <li><a href="#termal-kacak" class="mobile-dropdown-link mobile-nav-close">🔥 Termal Kamera ile Tespit</a></li>
+          <li><a href="#kamerali-tespit" class="mobile-dropdown-link mobile-nav-close">📷 Kameralı Görüntüleme</a></li>
+          <li><a href="#onarim-tadilat" class="mobile-dropdown-link mobile-nav-close">🛠️ Onarım & Tadilat</a></li>
+        </ul>
+      </li>
+      <li><a href="#neden-biz" class="mobile-link mobile-nav-close">Neden Biz?</a></li>
+      <li><a href="#galeri" class="mobile-link mobile-nav-close">Çalışmalarımız</a></li>
+      <li><a href="#bolgeler" class="mobile-link mobile-nav-close">Hizmet Bölgeleri</a></li>
+      <li><a href="#sss" class="mobile-link mobile-nav-close">S.S.S</a></li>
+      <li><a href="#iletisim" class="mobile-link mobile-nav-close">Bize Ulaşın</a></li>
+    </ul>
+
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 40px;">
+      <a href="tel:05511870449" class="btn btn-primary" style="width: 100%;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+        </svg>
+        Hemen Arayın
+      </a>
+      <a href="https://wa.me/905511870449" target="_blank" class="btn btn-success" style="width: 100%;">
+        WhatsApp Destek
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span></span> Tekirdağ Çorlu ve Çevresi 7/24 Aktif
+        </div>
+        <h1 class="hero-title">
+          Kırmadan Noktasal <span>Tesisat</span> Çözümleri
+        </h1>
+        <p class="hero-desc">
+          Ev ve iş yerlerinizde meydana gelen su kaçaklarını ve tıkanıklıkları en son teknoloji cihazlarla,
+          duvarlarınızı kırmadan dökmeden buluyor ve anahtar teslim onarıyoruz.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:05511870449" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Hemen Ara: 0551 187 0449
+          </a>
+          <a href="https://wa.me/905511870449" target="_blank" class="btn btn-success">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+            WhatsApp'tan Yazın
+          </a>
+        </div>
+        <div class="hero-features">
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🛡️</div>
+            Kırmadan Noktasal Tespit
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">⚡</div>
+            Hızlı Onarım & Sıva/Fayans
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">✅</div>
+            Tek Ekiple Komple Çözüm
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-area">
+        <div class="hero-image-wrapper">
+          <img src="yazısız tesisatcı resmi.jpeg" alt="TesisatPlus Profesyonel Tesisatçı" class="hero-image">
+        </div>
+        <div class="hero-float-card card-1">
+          <div class="float-card-icon">📞</div>
+          <div class="float-card-text">
+            <h4>7/24 Acil Servis</h4>
+            <p>Hızlı ve Kalıcı Destek</p>
+          </div>
+        </div>
+        <div class="hero-float-card card-2">
+          <div class="float-card-icon">⚙️</div>
+          <div class="float-card-text">
+            <h4>İleri Teknoloji</h4>
+            <p>Kameralı ve Akustik Cihazlar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section section-alt" id="hizmetler">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Neler Yapıyoruz?</span>
+        <h2 class="section-title">Profesyonel Tesisat Hizmetlerimiz</h2>
+        <p class="section-subtitle">Ev veya iş yerinizde oluşan problemleri en doğru teknolojileri kullanarak kırıp
+          dökmeden çözüme ulaştırıyoruz.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: Tıkanıklık Açma -->
+        <div class="service-card reveal" id="tikaniklik-acma">
+          <div class="service-icon">🚪</div>
+          <h3>Tıkanıklık & Gider Açma</h3>
+          <p>TesisatPlus olarak tıkanıklık açma işlemlerini kırma dökme yapmadan, profesyonel cihazlarla
+            gerçekleştiriyoruz. Amaç, gider hattına zarar vermeden tıkanıklığın bulunduğu noktayı tespit edip hızlı
+            şekilde açmaktır.</p>
+          <ul class="service-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Robot Spiral Makinelerle Müdahale
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Boru İçi Görüntüleme & Kontrol
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Lavabo, Tuvalet, Süzgeç ve Balkon Gideri
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 2: Akustik Kaçak Tespiti -->
+        <div class="service-card reveal" id="akustik-kacak">
+          <div class="service-icon">🎧</div>
+          <h3>Akustik Cihazla Su Kaçağı</h3>
+          <p>Tesisattaki basınç değerlerini ölçtükten sonra, temiz su borularındaki görünmeyen sızıntıları akustik
+            dinleme cihazları ile dinleyerek ses frekansları sayesinde tam yerinde noktasal olarak tespit ediyoruz.</p>
+          <ul class="service-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Ses Dalgaları ile Milimetrik Tespit
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Gereksiz Kırma İşlemlerine Son
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Şebeke ve Temiz Su Hattı Taraması
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 3: Termal Kamera ile Tespit -->
+        <div class="service-card reveal" id="termal-kacak">
+          <div class="service-icon">🔥</div>
+          <h3>Termal Kamera ile Kaçak Tespiti</h3>
+          <p>Yüzeylerin altındaki sıcak su tesisatlarını ve nemlenmiş bölgeleri termal kameralarla tarıyoruz. Sıcaklık
+            farklılıklarını canlı ekrana yansıtarak kırmadan, duvar veya şap arkasındaki kaçağı buluyoruz.</p>
+          <ul class="service-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Kızılötesi Sıcaklık Değişimi Analizi
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Zemin Isıtma ve Kalorifer Hattı Taraması
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Duvar ve Zemin Hasarsız Analizi
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 4: Kameralı Görüntüleme -->
+        <div class="service-card reveal" id="kamerali-tespit">
+          <div class="service-icon">📷</div>
+          <h3>Kameralı Görüntüleme Sistemi</h3>
+          <p>Özel boru içi kameralarımızla atık su ve pis su gider hatlarının içine giriyoruz. Gider borularındaki
+            tıkanıklık nedenini, conta sıyrılmalarını, çatlakları veya çökmeleri canlı izleyerek tespit ediyoruz.</p>
+          <ul class="service-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Canlı Boru İçi Görüntü Kaydı
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Çökme, Eğrilme ve Çatlak Tespiti
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Gider Tıkanıklığının Tam Nedenini Bulma
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 5: Onarım & Tadilat -->
+        <div class="service-card reveal" id="onarim-tadilat">
+          <div class="service-icon">🛠️</div>
+          <h3>Tadilat & Onarım Hizmetleri</h3>
+          <p>TesisatPlus olarak sadece tespit etmekle kalmıyor, arızalı boruyu değiştirdikten sonra açılan küçük
+            bölgelerin sıva, alçı, fayans tamirini ve boyasını da kendi ustalarımızla yaparak anahtar teslim
+            kapatıyoruz.</p>
+          <ul class="service-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Fayans Kırımı ve Birebir Yenileme
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Alçı, Sıva ve Boya Badana İşleri
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              Komple Banyo ve Mutfak Tesisat Yenileme
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Neden Biz Section -->
+  <section class="section" id="neden-biz">
+    <div class="container why-wrapper">
+      <div class="reveal">
+        <span class="section-tag">Neden TesisatPlus?</span>
+        <h2 class="section-title" style="margin-bottom: 24px;">Tek Ekip ile Tüm Sorunlarınıza Kesin Çözüm!</h2>
+        <p class="section-subtitle" style="margin-bottom: 40px;">Sıradan tesisatçıların aksine, evinize girdiğimiz andan
+          sorunu tespit edip onarımı tamamlayıp fayansınızı yapıştırana kadar tüm süreci tek çatı altında yürütüyoruz.
+        </p>
+
+        <div class="why-features">
+          <div class="why-feature-card">
+            <div class="why-card-icon">⚡</div>
+            <div class="why-card-content">
+              <h3>Farklı Ustalar Aramazsınız</h3>
+              <p>Kaçak tespiti yapan ayrı, boruyu tamir eden ayrı, fayansı kapatan ayrı usta aramazsınız. Tüm işlemleri
+                tek ekiple hallederiz.</p>
+            </div>
+          </div>
+          <div class="why-feature-card">
+            <div class="why-card-icon">⏰</div>
+            <div class="why-card-content">
+              <h3>Zamandan Tasarruf Edersiniz</h3>
+              <p>Noktasal cihazlarımızla kaçağı aramak saatler değil dakikalar sürer. Eviniz şantiyeye dönmeden işlem
+                tamamlanır.</p>
+            </div>
+          </div>
+          <div class="why-feature-card">
+            <div class="why-card-icon">📍</div>
+            <div class="why-card-content">
+              <h3>Kırmadan Noktasal Müdahale</h3>
+              <p>Termal kameralar, akustik kulaklıklar ve gider kameraları ile kaçağın tam noktasını bulup yalnızca
+                orayı açarız.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-promo reveal">
+        <span class="why-promo-tag">Tesisat Sorununuz mu Var?</span>
+        <h2>Bizimle İletişime Geçin, Hızlıca Çözelim</h2>
+        <p>Gelişmiş cihazlarımız ve deneyimli ustalarımızla 7/24 hizmetinizdeyiz. Bizleri doğrudan arayabilir veya
+          WhatsApp üzerinden hemen randevu alabilirsiniz.</p>
+        <div class="why-promo-cta">
+          <a href="tel:05511870449" class="btn why-promo-btn">
+            Hemen Ara
+          </a>
+          <div class="why-promo-phone">
+            <span>Doğrudan Telefon</span>
+            <a href="tel:05511870449">0551 187 0449</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section section-alt" id="galeri">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Neler Yaptık?</span>
+        <h2 class="section-title">Çalışmalarımız & Referanslarımız</h2>
+        <p class="section-subtitle">Müşterilerimize sunduğumuz kaliteli hizmetlerin, su kaçağı tespitlerimizin ve
+          onarımlarımızın görselleri.</p>
+      </div>
+
+      <div class="gallery-filter reveal">
+        <button class="filter-btn active" data-filter="all">Tüm Çalışmalar</button>
+        <button class="filter-btn" data-filter="kacak">Su Kaçağı Tespiti</button>
+        <button class="filter-btn" data-filter="tikaniklik">Tıkanıklık Açma</button>
+        <button class="filter-btn" data-filter="tadilat">Onarım & Tadilat</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-card reveal" data-category="kacak" id="gallery-1">
+          <img src="WhatsApp Image 2026-06-06 at 13.47.03.jpeg" alt="Cihazla Su Kaçağı Tespiti" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom-icon">🔍</span>
+            <p>Su Kaçağı Tespiti</p>
+            <h4>Akustik Dinleme Cihazı ile Noktasal Tespit</h4>
+          </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="gallery-card reveal" data-category="tadilat" id="gallery-2">
+          <img src="WhatsApp Image 2026-06-06 at 13.47.03 (2).jpeg" alt="Tadilat ve Onarım İşlerimiz" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom-icon">🔍</span>
+            <p>Onarım & Tadilat</p>
+            <h4>Boru Değişimi ve Fayans Yenileme</h4>
+          </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="gallery-card reveal" data-category="tikaniklik" id="gallery-3">
+          <img src="WhatsApp Image 2026-06-06 at 13.47.03 (3).jpeg" alt="Robotla Gider Tıkanıklığı Açma" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom-icon">🔍</span>
+            <p>Tıkanıklık Açma</p>
+            <h4>Kameralı Görüntüleme ve Robotla Gider Temizliği</h4>
+          </div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="gallery-card reveal" data-category="kacak" id="gallery-4">
+          <img src="WhatsApp Image 2026-06-06 at 13.47.04.jpeg" alt="Termal Kamera ile Sıcak Su Kaçağı" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom-icon">🔍</span>
+            <p>Su Kaçağı Tespiti</p>
+            <h4>Termal Kamera ile Noktasal Isı Tespiti</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Regions Section -->
+  <section class="section" id="bolgeler">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Neredeyiz?</span>
+        <h2 class="section-title">Hizmet Bölgelerimiz</h2>
+        <p class="section-subtitle">Tekirdağ Çorlu merkezli firmamız ile çevre ilçe ve mahallelere hızlı mobil
+          araçlarımızla kesintisiz servis sağlıyoruz.</p>
+      </div>
+
+      <div class="regions-grid">
+        <div class="region-card reveal">
+          <div class="region-icon">📍</div>
+          <h3>Çorlu</h3>
+          <p>Merkez Bölge (Hızlı Servis)</p>
+        </div>
+        <div class="region-card reveal">
+          <div class="region-icon">📍</div>
+          <h3>Çerkezköy</h3>
+          <p>Tüm Mahalleler</p>
+        </div>
+        <div class="region-card reveal">
+          <div class="region-icon">📍</div>
+          <h3>Süleymanpaşa</h3>
+          <p>Tekirdağ Merkez ve Çevresi</p>
+        </div>
+        <div class="region-card reveal">
+          <div class="region-icon">📍</div>
+          <h3>Lüleburgaz</h3>
+          <p>Mobil Servis Hattı</p>
+        </div>
+        <div class="region-card reveal">
+          <div class="region-icon">📍</div>
+          <h3>Yeniçiftlik</h3>
+          <p>Yazlık Bölgeler & Sahil</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (S.S.S) -->
+  <section class="section section-alt" id="sss">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Sorular & Cevaplar</span>
+        <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+        <p class="section-subtitle">Tesisat hizmetlerimiz, kaçak tespiti ve kırma dökme işlemleri hakkında aklınıza
+          takılan soruların yanıtları.</p>
+      </div>
+
+      <div class="faq-wrapper reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-header" aria-expanded="false">
+            Su kaçağı kırmadan gerçekten bulunur mu?
+            <span class="faq-icon-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </span>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              Evet, gelişmiş akustik dinleme cihazları, termal kameralar ve boru içi görüntüleme kameraları sayesinde
+              temiz ve pis su kaçaklarını kırmadan, noktasal olarak tespit edebiliyoruz. Böylece sadece sızıntının
+              olduğu küçük bölgede lokal onarım yapılır ve gereksiz inşaat maliyetleri oluşmaz.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-header" aria-expanded="false">
+            Tıkanıklık evde bireysel olarak açılabilir mi?
+            <span class="faq-icon-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </span>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              Basit, yüzeyde bulunan saç veya yağ birikintileri pompa veya kimyasal gider açıcılar yardımıyla
+              açılabilir. Ancak ileri seviyedeki, borunun derinliklerinde yer alan sertleşmiş veya yabancı cisim
+              kaynaklı tıkanıklıklarda profesyonel cihazlar kullanılması gerekir. Yanlış uygulamalar veya kalitesiz
+              kimyasallar borularınıza zarar vererek su sızıntılarına yol açabilir.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-header" aria-expanded="false">
+            Robotla tıkanıklık açma işlemi gider borusuna zarar verir mi?
+            <span class="faq-icon-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </span>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              Kesinlikle zarar vermez. Doğru profesyonel ekipmanlar, borunun yapısına uygun çelik yaylı döner robot
+              makineler ile kullanıldığında, tıkanıklık gider çeperlerine ve contalara zarar vermeden tamamen güvenli
+              bir şekilde temizlenir ve açılır.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-header" aria-expanded="false">
+            Arıza sonrasında tadilat ve sıva/fayans onarımı yapıyor musunuz?
+            <span class="faq-icon-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </span>
+          </button>
+          <div class="faq-content">
+            <div class="faq-body">
+              Evet. TesisatPlus olarak bizi diğer tesisatçılardan ayıran en büyük özelliklerimizden biri budur. Su
+              kaçağı tespit edilip arızalı boru onarıldıktan sonra, işlem yapılan alanı mümkün olduğunca eski haline
+              getiriyoruz. Fayans yapıştırma, sıva, alçı ve boya gibi tadilat işlerini kendi bünyemizde tamamlayarak
+              müşterilerimizin başka usta arama zahmetini ortadan kaldırıyoruz.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="iletisim">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">İletişime Geçin</span>
+        <h2 class="section-title">Bize Ulaşın</h2>
+        <p class="section-subtitle">Merak ettiğiniz konuları danışmak, fiyat teklifi almak veya servis kaydı oluşturmak
+          için bize yazın veya arayın.</p>
+      </div>
+
+      <div class="contact-wrapper reveal">
+        <!-- Info Column -->
+        <div class="contact-info">
+          <div>
+            <h3>İletişim Bilgilerimiz</h3>
+            <p>Tüm sıhhi tesisat arızaları ve kaçak tespitleri için bir telefon uzağınızdayız.</p>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">📞</div>
+              <div class="contact-detail-content">
+                <h4>Telefon Numarası</h4>
+                <a href="tel:05511870449">0551 187 0449</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">💬</div>
+              <div class="contact-detail-content">
+                <h4>WhatsApp Hattı</h4>
+                <a href="https://wa.me/905511870449" target="_blank">0551 187 0449</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">📍</div>
+              <div class="contact-detail-content">
+                <h4>Adres Bilgisi</h4>
+                <p>Kazimiye Mah. Acı Badem Sok. No:14 Çorlu / Tekirdağ</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.6);">
+            © 2026 TesisatPlus. Tüm hakları saklıdır.
+          </div>
+        </div>
+
+        <!-- Map Column -->
+        <div class="contact-map">
+          <div class="map-container">
+            <!-- Google Maps Iframe of Corlu Kazimiye Mahallesi -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.7410074127047!2d27.702844512140417!3d41.15112521045952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b53ef9c95c8625%3A0xc6cb51cc6eb2733c!2zS2F6xLFtaXllLCBBY8SxIEJhZGVtIFNrLiBObzoxNCwgNTk4NTAgw4dvcmx1L1Rla2lyZGHEnQ!5e0!3m2!1str!2str!4v1717672200000!5m2!1str!2str"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="contact-actions">
+            <a href="tel:05511870449" class="btn btn-primary" style="flex: 1;">
+              Hemen Arayın
+            </a>
+            <a href="https://wa.me/905511870449" target="_blank" class="btn btn-success" style="flex: 1;">
+              WhatsApp İletişim
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo" style="color: var(--primary); margin-bottom: 20px;">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-11-7-11S5 10.7 5 15a7 7 0 0 0 7 7z" />
+              </svg>
+            </div>
+            Tesisat<span>Plus</span>
+          </a>
+          <p>Çorlu ve çevre bölgelerde kırmadan dökmeden su kaçağı tespiti, robotla tıkanıklık açma, tesisat yenileme ve
+            tadilat işlerinizi profesyonelce yapıyoruz.</p>
+        </div>
+
+        <div class="footer-links-col">
+          <h3>Hizmetlerimiz</h3>
+          <ul class="footer-links">
+            <li><a href="#tikaniklik-acma">Tıkanıklık & Gider Açma</a></li>
+            <li><a href="#akustik-kacak">Akustik Kaçak Tespiti</a></li>
+            <li><a href="#termal-kacak">Termal Kamera ile Tespit</a></li>
+            <li><a href="#kamerali-tespit">Kameralı Görüntüleme</a></li>
+            <li><a href="#onarim-tadilat">Tadilat & Onarım Hizmetleri</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h3>Hızlı Menü</h3>
+          <ul class="footer-links">
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#neden-biz">Neden Biz?</a></li>
+            <li><a href="#galeri">Çalışmalarımız</a></li>
+            <li><a href="#bolgeler">Hizmet Bölgeleri</a></li>
+            <li><a href="#sss">S.S.S</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h3>Bize Ulaşın</h3>
+          <ul class="footer-links" style="color: #cbd5e1;">
+            <li style="display: flex; gap: 8px;">
+              <span>📞</span> <a href="tel:05511870449">0551 187 0449</a>
+            </li>
+            <li style="display: flex; gap: 8px;">
+              <span>💬</span> <a href="https://wa.me/905511870449" target="_blank">0551 187 0449</a>
+            </li>
+            <li style="display: flex; gap: 8px;">
+              <span>📍</span> <span>Kazimiye Mah. Acı Badem Sok. No:14 Çorlu / Tekirdağ</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TesisatPlus. Tüm hakları saklıdır. Bu web sitesi kırmadan su kaçağı tespiti ve tıkanıklık giderme
+          hizmetleri için hazırlanmıştır.</p>
+        <p>Tasarım & Yazılım: TesisatPlus</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal Container -->
+  <div class="lightbox" id="lightbox-modal">
+    <button class="lightbox-close" id="lightbox-close-btn">&times;</button>
+    <div class="lightbox-content">
+      <img src="" alt="Büyütülmüş Görsel" class="lightbox-image" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption-txt">Görsel Açıklaması</div>
+    </div>
+  </div>
+
+  <!-- Floating Action Buttons (FABs) -->
+  <div class="fab-container">
+    <a href="https://wa.me/905511870449" target="_blank" class="fab fab-whatsapp" aria-label="WhatsApp ile Destek Al">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+      </svg>
+    </a>
+    <a href="tel:05511870449" class="fab fab-call" aria-label="Telefonla Arayın">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+      </svg>
+    </a>
+    <button class="fab fab-scroll-top" id="scroll-top-btn" aria-label="Yukarı Git">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="app.js"></script>
+</body>
+
+</html>

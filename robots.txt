@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tesisatplus.com.tr/sitemap.xml
