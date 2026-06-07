@@ -1707,3 +1707,236 @@ footer {
     align-items: center;
   }
 }
+
+/* SEO Region Cards Link Styling */
+.region-links {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-top: 1px solid rgba(226, 232, 240, 0.6);
+  padding-top: 12px;
+}
+
+.region-links a {
+  color: var(--primary);
+  transition: var(--transition-fast);
+}
+
+.region-links a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Footer SEO Links */
+.footer-seo-links {
+  margin-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 24px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-seo-links h4 {
+  color: var(--white);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.footer-seo-links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+}
+
+.footer-seo-links-grid a {
+  color: #94a3b8;
+  transition: var(--transition-fast);
+}
+
+.footer-seo-links-grid a:hover {
+  color: var(--primary-light);
+}
+
+/* SEO Landing Page Specific Styles */
+.seo-page-hero {
+  padding: 160px 0 80px 0;
+  background: radial-gradient(circle at 10% 20%, #f0f9ff 0%, var(--white) 80%);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+  text-align: center;
+}
+
+.seo-page-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--dark);
+}
+
+.seo-page-hero h1 span {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.seo-page-hero p {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.seo-content-section {
+  padding: 80px 0;
+  background-color: var(--white);
+}
+
+.seo-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.seo-main-content h2 {
+  font-size: 2rem;
+  margin: 32px 0 16px 0;
+  color: var(--dark);
+}
+
+.seo-main-content p {
+  font-size: 1.05rem;
+  color: var(--dark-light);
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+
+.seo-main-content ul {
+  list-style: none;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.seo-main-content li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  color: var(--dark-light);
+  font-weight: 500;
+}
+
+.seo-main-content li::before {
+  content: '✓';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--success-glow);
+  color: var(--success-dark);
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.seo-sidebar {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.seo-cta-card {
+  background: linear-gradient(135deg, var(--dark), var(--dark-light));
+  padding: 40px;
+  border-radius: var(--border-radius-lg);
+  color: var(--white);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.seo-cta-card h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.seo-cta-card p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.seo-cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.seo-cta-buttons .btn {
+  width: 100%;
+}
+
+.seo-links-card {
+  background-color: var(--light);
+  padding: 32px;
+  border-radius: var(--border-radius-md);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.seo-links-card h4 {
+  font-size: 1.15rem;
+  margin-bottom: 16px;
+  color: var(--dark);
+}
+
+.seo-links-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seo-links-list a {
+  font-size: 0.95rem;
+  color: var(--primary);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.seo-links-list a::before {
+  content: '→';
+  transition: var(--transition-fast);
+}
+
+.seo-links-list a:hover::before {
+  transform: translateX(4px);
+}
+
+.seo-links-list a:hover {
+  color: var(--primary-dark);
+}
+
+@media (max-width: 992px) {
+  .seo-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .seo-sidebar {
+    position: static;
+  }
+}
+
+
