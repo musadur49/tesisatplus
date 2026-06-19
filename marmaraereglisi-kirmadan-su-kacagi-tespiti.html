@@ -8,6 +8,31 @@
     gtag('js', new Date());
     gtag('config', 'G-3B4SCF9X3W');
     gtag('config', 'AW-18220394003');
+
+    // Helper function to delay opening a URL until a gtag event is sent.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion_event_contact_1', {
+        'event_callback': callback,
+        'event_timeout': 2000
+      });
+      return false;
+    }
+
+    // Auto-attach conversion tracking to all click-to-call links
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('a[href^="tel:"]');
+      links.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          gtagSendEvent(link.getAttribute('href'));
+        });
+      });
+    });
   </script>
 
   <meta charset="UTF-8">
