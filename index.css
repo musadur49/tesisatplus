@@ -2039,4 +2039,45 @@ footer {
   }
 }
 
+/* SEO Page Image Gallery */
+.seo-gorsel-galeri {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.seo-gorsel-kart {
+  background-color: var(--light);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-normal);
+}
+
+.seo-gorsel-kart:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(2, 132, 199, 0.2);
+}
+
+.seo-gorsel-kart img {
+  width: 100%;
+  height: auto;
+  max-height: 380px;
+  object-fit: contain;
+  background-color: var(--light);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.seo-gorsel-kart p {
+  padding: 16px;
+  font-size: 0.95rem;
+  color: var(--dark-light);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+
 
